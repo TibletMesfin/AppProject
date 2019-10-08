@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "454406570819",
+    "firebase_url": "https://loginregister-c2afe.firebaseio.com",
+    "project_id": "loginregister-c2afe",
+    "storage_bucket": "loginregister-c2afe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454406570819:android:d5b36ef6977b6ea0",
+        "android_client_info": {
+          "package_name": "com.example.meetthestreets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454406570819-7qguc0i1v983nkf3r7qa7slbl9a9ri6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meetthestreets",
+            "certificate_hash": "9c5bd2654af0186886e85ffa3c60ae38bf7454e2"
+          }
+        },
+        {
+          "client_id": "454406570819-v31fvacqioo0m3cvqrld0nqp9e66jqu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHp32AHHwq4WuPRdpMUeMiqisQAjX6FGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454406570819-v31fvacqioo0m3cvqrld0nqp9e66jqu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

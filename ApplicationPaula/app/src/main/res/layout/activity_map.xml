@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="start"
+
+    tools:context=".MapButton">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:id="@+id/infotext" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="745dp"
+        android:layout_weight="1.0"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/arts_btn"
+            android:layout_width="323dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/colorPrimary"
+            android:text="ART"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/street_Btn"
+            android:layout_width="323dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorPrimary"
+            android:baselineAligned="true"
+            android:padding="2px "
+            android:paddingLeft="100px"
+            android:paddingRight="100px"
+            android:paddingBottom="2px"
+            android:text="STREET PERFORMERS "
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/restaurant_btn"
+            android:layout_width="323dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorPrimary"
+            android:baselineAligned="true"
+            android:padding=" 1px"
+            android:paddingBottom="4px"
+            android:text="RESTAURANTS"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+
+

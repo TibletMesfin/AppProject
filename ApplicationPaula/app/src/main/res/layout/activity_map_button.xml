@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="true"
+    tools:context=".MapButton"
+    tools:openDrawer="start">
+
+
+    <ImageButton
+        android:id="@+id/mapBtn"
+        android:layout_width="306dp"
+        android:layout_height="311dp"
+        android:background="@color/colorPrimaryDark"
+        app:srcCompat="@drawable/mapin"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="210dp" />
+</android.support.constraint.ConstraintLayout>

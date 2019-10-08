@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".StreetsDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/sImageView"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/sDescription"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:text="Description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/sType"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Type"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/sPlace"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:text="Place"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/link"
+            android:autoLink="all"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="https:/www.instagram.com/"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+

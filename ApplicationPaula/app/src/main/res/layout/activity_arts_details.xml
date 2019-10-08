@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:scrollbarSize="@dimen/activity_horizontal_margin"
+    android:scrollbarThumbHorizontal="@color/colorPrimaryDark"
+    app:cardBackgroundColor="@color/colorPrimaryDark"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="5dp"
+    tools:context=".ArtsDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/rName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/adamina"
+            android:text="Name"
+            android:textColor="#FF33691E"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/rImageView"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:scrollbarSize="@dimen/activity_horizontal_margin"
+            android:scrollbarStyle="outsideInset"
+            android:scrollbarThumbHorizontal="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/rDescriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/adamina"
+            android:text="The description goes here"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rPlace"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/adamina"
+            android:text="Place"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:fontFamily="@font/adamina"
+            android:text="https:/www.instagram.com/"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
